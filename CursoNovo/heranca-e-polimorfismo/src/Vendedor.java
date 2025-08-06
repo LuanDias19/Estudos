@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public non-sealed class Vendedor extends Empregado{
 
     private String nome;
@@ -20,7 +19,6 @@ public non-sealed class Vendedor extends Empregado{
         this.salario = salario;
     }
 
-=======
 public non-sealed class Vendedor extends Empregado {
 
     private double percentualComissao;
@@ -33,7 +31,4 @@ public non-sealed class Vendedor extends Empregado {
         return percentualComissao;
     }
 
-
-    
->>>>>>> versaoDeteste
 }
