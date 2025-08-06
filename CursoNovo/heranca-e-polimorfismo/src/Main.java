@@ -1,5 +1,4 @@
 public class Main {
-<<<<<<< HEAD
     
     public static void main(String[] args) throws Exception {
         printEmpregado(new Gerente());
@@ -22,7 +21,6 @@ public class Main {
     }
     
 }
-=======
 
 
     public static void main(String[] args) {
@@ -76,4 +74,3 @@ public class Main {
     }
 
 }
->>>>>>> versaoDeteste
