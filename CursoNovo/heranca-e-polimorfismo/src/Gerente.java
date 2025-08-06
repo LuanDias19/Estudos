@@ -1,6 +1,7 @@
 public non-sealed class Gerente extends Empregado {
 
     private String login;
+<<<<<<< HEAD
     private String senha;
     private String comissao;
 
@@ -24,5 +25,33 @@ public non-sealed class Gerente extends Empregado {
         this.comissao = comissao;
     }
 
+=======
+    private String password;
+    private double comissao;
+
+    public void setComissao(double comissao) {
+        this.comissao = comissao;
+    }
+
+    public double getComissao() {
+        return comissao;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+>>>>>>> versaoDeteste
     
 }
