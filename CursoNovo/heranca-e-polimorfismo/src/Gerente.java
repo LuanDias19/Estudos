@@ -1,7 +1,6 @@
 public non-sealed class Gerente extends Empregado {
 
     private String login;
-<<<<<<< HEAD
     private String senha;
     private String comissao;
 
@@ -25,7 +24,6 @@ public non-sealed class Gerente extends Empregado {
         this.comissao = comissao;
     }
 
-=======
     private String password;
     private double comissao;
 
@@ -52,6 +50,5 @@ public non-sealed class Gerente extends Empregado {
     public String getPassword() {
         return password;
     }
->>>>>>> versaoDeteste
     
 }
